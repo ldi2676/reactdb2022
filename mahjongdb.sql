@@ -32,7 +32,7 @@ CREATE TABLE `YAKU_DESC` (
 DEFAULT CHARACTER SET utf8
 DEFAULT COLLATE utf8_general_ci;
 
-INSERT INTO HAN (yaku_name, menzen, `call`) VALUES
+INSERT INTO HAN (id,yaku_name, menzen, `call`) VALUES
 (1,'핑후','1판','역없음'),
 (2,'탕야오','1판','1판'),
 (3,'이페코','1판','0판'),
@@ -79,7 +79,7 @@ INSERT INTO HAN (yaku_name, menzen, `call`) VALUES
 (44,'헤아림역만','역만','역만');
 
 
-INSERT INTO `YAKU_DESC` (yaku_name, `desc`) VALUES
+INSERT INTO `YAKU_DESC` (id,yaku_name, `desc`) VALUES
 (1,'핑후','멘젠이면서 부수가 없는 형태로 완성'),
 (2,'탕야오','중장패(수패 2~8)만으로 완성'),
 (3,'이페코','같은 종류 수패로 똑같은 슌쯔 1쌍(ex.만패의경우 123만x2)'),
